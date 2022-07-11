@@ -1,0 +1,49 @@
+.title {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .form-input {
+    display: flex;
+    justify-content: center;
+  }
+  .form-input input {
+    width: 50%;
+    border: 1px solid #acc;
+    border-radius: 10px;
+    padding: 0 0.5rem;
+    height: 40px;
+  }
+  .form-input button {
+    height: 40px;
+    margin-left: 1%;
+    background-color: lightpink;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 15%;
+  }
+  .list-items {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  table {
+    width: 40%;
+    border: 1px solid lightskyblue;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  table thead {
+    background-color: lightskyblue;
+    color: white;
+  }
+  table thead th {
+    font-weight: bold;
+  }
+  table tbody tr:nth-child(odd) {
+    background-color: lightpink;
+  }
+  h2 {
+    color: white;
+  }
